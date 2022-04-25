@@ -1,14 +1,24 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+using Lesson3;
 
-Console.WriteLine("THIS IS NEW TEST");
 
-string newVariable;
-newVariable = "eradfdafad";
+string myName = "Oskars" ;
+Person person = new Person(myName);
 
-Console.WriteLine("Let's try something new: " + newVariable);
+//person.Name = "Jevgenijs";
+person.Age = 33;
+person.IsMale = true;
 
-double newNumber = 12.4554534534;
-Console.WriteLine(newNumber);
+person.Greeting();
 
+
+Console.WriteLine("========================");
+
+
+Person jeff = new("FSFDF");
+
+//jeff.Name = "Andris";
+jeff.Age = 18;
+
+jeff.Greeting();
 
